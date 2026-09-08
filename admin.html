@@ -23,6 +23,27 @@
         </ul>
       </div>
     </nav>
+     <form class="ms-3 me-3" id="form">
+      <div class="mb-3">
+        <label for="dateInput">Dátum</label>
+        <input type="date" id="dateInput" name="date" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label for="moodInput" class="form-label">Hangulat</label>
+        <select name="mood" id="moodInput" class="form-select">
+          <option value="😀">😀</option>
+          <option value="😐">😐</option>
+          <option value="😢">😢</option>
+          <option value="😴">😴</option>
+          <option value="😡">😡</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="descInput" class="form-label">Megjegyzés</label>
+        <input name="desc" type="text" class="form-control">
+      </div>
+      <button type="submit" class="btn btn-primary">Új Bejegyzés</button>
+    </form>
     <div class="ms-3 mt-2 me-3">
       <table class="table table-striped">
         <thead class="thead">
